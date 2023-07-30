@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Exclude local folders used for development
+.vscode
+./main.exe

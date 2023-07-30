@@ -9,7 +9,7 @@ int main(){
 
     const int NCOLS=200, NROWS=200, PIXELS=5, MILLISECONDS=10;
 
-    game_of_life::matrix<bool> start(NROWS, NCOLS);
+    game_of_life::Matrix<bool> start(NROWS, NCOLS);
     for(int r=0; r<NROWS; r++){
         for(int c=0; c<NCOLS; c++){
             int i = r + NROWS*c;
